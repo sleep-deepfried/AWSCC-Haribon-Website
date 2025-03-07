@@ -10,7 +10,7 @@ export default function Member(){
             <p className="text-center text-lg text-amazon-dark">
             Join AWS Cloud Club Haribon and embark on a journey of learning, collaboration, and innovation—where your cloud ambitions turn into reality!
             </p>
-            <button className="bg-amazon-blue text-lg py-3.5 px-4 rounded-lg">
+            <button className="bg-amazon-blue text-lg py-3.5 px-4 rounded-lg text-white">
                 Join Us Now
             </button>
         </div>

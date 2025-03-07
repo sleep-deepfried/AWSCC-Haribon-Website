@@ -11,7 +11,8 @@ export default function CloudBuilderCarousel({ items }: CustomCarouselProps) {
                 opts={{
                 dragFree: false,
                 slidesToScroll: 1,
-                loop: false
+                loop: false,
+                duration: 15
                 }}
             >
             <CarouselContent className="w-full h-[400px]">

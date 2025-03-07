@@ -15,7 +15,7 @@ export default function Hero() {
             </div>
         </div>
 
-        <div className="absolute left-50% top-2/7 text-center space-y-5">
+        <div className="absolute left-50% top-2/7 text-center space-y-5 text-white">
             <p className="font-bold text-4xl px-11">
             It&apos;s always day one
             </p>

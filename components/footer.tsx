@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return(
-        <div className="bg-footer">
+        <div className="bg-footer text-white">
             <div className="py-5 px-5 flex flex-col items-center justify-center text-center space-y-5">
                 <div className="flex items-center space-x-2">
                     <Image src="/images/seal.svg" alt="seal" width={83} height={83} />
