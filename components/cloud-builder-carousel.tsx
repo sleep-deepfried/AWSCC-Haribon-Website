@@ -12,13 +12,10 @@ export default function CloudBuilderCarousel({ items }: CustomCarouselProps) {
                     dragFree: true,
                     slidesToScroll: 1,
                     loop: false,
-                    // speed: 20,
-                    dragThreshold: 10,
-                    inViewThreshold: 0.5,
                     align: "center"
                 }}
             >
-            <CarouselContent className="w-full h-[400px] transition-transform duration-300">
+            <CarouselContent className="w-full h-[400px] transition-all ease-in-out duration-500">
                 {items.map((item, index) => (
                     <CarouselItem key={index} className="w-full transition-opacity duration-300">
                     <div className="relative flex justify-center items-center mt-10">
