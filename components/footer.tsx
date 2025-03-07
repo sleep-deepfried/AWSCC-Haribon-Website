@@ -29,7 +29,7 @@ export default function Footer(){
 
             </div>
             
-            <div className="bg-[#236A7B] w-full px-9 py-5 text-center">
+            <div className="bg-[#236A7B] w-full px-9 py-5 text-center text-xs">
                 <p>
                     Copyright © 2024 by AWS Cloud Club Haribon, All rights reserved.
                 </p>

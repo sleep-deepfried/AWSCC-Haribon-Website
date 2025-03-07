@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-    <div className="h-screen bg-gradient-to-b from-[#003366] via-[#20B2AA] to-[#269AAB]">
+    <div className="min-h-screen bg-gradient-to-b from-[#003366] via-[#20B2AA] to-[#269AAB]">
         <div className="relative w-full">
             <div className="absolute right-5 -top-5">
                 <Image src="/images/lamp.svg" alt="lamp" width={70} height={50} />
