@@ -10,7 +10,6 @@ export default function CloudBuilderCarousel({ items }: CustomCarouselProps) {
                 className="w-full"
                 opts={{
                     loop: false,
-                    duration: 1000 / 60,
                     dragFree: false
                 }}
             >
