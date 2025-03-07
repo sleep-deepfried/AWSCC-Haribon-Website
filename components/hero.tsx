@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-    <div className="min-h-screen bg-gradient-to-b from-[#003366] via-[#20B2AA] to-[#269AAB]">
-        <div className="relative w-full">
+    <div className="min-h-screen bg-gradient-to-b from-[#003366] via-[#20B2AA] to-[#269AAB] relative flex flex-col">
+        <div className="">
             <div className="absolute right-5 -top-5">
                 <Image src="/images/lamp.svg" alt="lamp" width={70} height={50} />
             </div>
@@ -15,7 +15,7 @@ export default function Hero() {
             </div>
         </div>
 
-        <div className="flex flex-col justify-center items-start text-center h-full pb-40 space-y-5">
+        <div className="absolute left-50% top-2/7 text-center space-y-5">
             <p className="font-bold text-4xl px-11">
             It&apos;s always day one
             </p>
