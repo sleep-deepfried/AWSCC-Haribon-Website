@@ -9,14 +9,18 @@ export default function CloudBuilderCarousel({ items }: CustomCarouselProps) {
                 orientation="vertical"
                 className="w-full"
                 opts={{
-                dragFree: false,
-                slidesToScroll: 1,
-                loop: false
+                    dragFree: true,
+                    slidesToScroll: 1,
+                    loop: false,
+                    // speed: 20,
+                    dragThreshold: 10,
+                    inViewThreshold: 0.5,
+                    align: "center"
                 }}
             >
-            <CarouselContent className="w-full h-[400px]">
+            <CarouselContent className="w-full h-[400px] transition-transform duration-300">
                 {items.map((item, index) => (
-                    <CarouselItem key={index} className="w-full">
+                    <CarouselItem key={index} className="w-full transition-opacity duration-300">
                     <div className="relative flex justify-center items-center mt-10">
                         <div className="bg-[#2CBA9F] w-3xs h-[307px] px-5 pt-7 rounded-4xl space-y-5">
                         <p className="text-2xl text-[#FCF8B7] font-bold text-center">{item.title}</p>
